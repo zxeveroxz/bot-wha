@@ -159,8 +159,6 @@ const withOutSession = () =>{
     client.initialize();
 }
 
-
-
 /* function que se encarga de escuhar mesajes nuevos */
 const listenMessage = ()=>{
     client.on("message", (msg) => {
