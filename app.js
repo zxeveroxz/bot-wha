@@ -40,8 +40,8 @@ const sendIncidencias = (req,res)=>{
         case 'dis': to="51981359205-1525362047@g.us"; break;
         default: to="51981359205@c.us";break;
     }
-    let iphone='51960854060@c.us';
-    to=iphone;
+    //let iphone='51960854060@c.us';
+    //to=iphone;
     sendMessage(to,inc);
     res.send({status:'WS Enviado'});
 }
